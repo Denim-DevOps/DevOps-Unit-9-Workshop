@@ -58,7 +58,7 @@ Add the following to your `main.tf`, using the resource group name relevant to y
 
 ```terraform
 data "azurerm_resource_group" "main" {
-  name = "<Your resource group name>"
+  name = "your resource group name"
 }
 ```
 
